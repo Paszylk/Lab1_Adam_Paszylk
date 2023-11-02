@@ -1,3 +1,7 @@
+{% load static %}
+<link rel="stylesheet" href="{% static 'styles.css' %}">
+<link rel="stylesheet" href="{% static 'crud_blog_web.css' %}">
+<img src="/media/{{ article.imgThumb }}" alt="{{ article.title }}" title="{{ article.title }}">
 <!doctype html>
 <html lang="en">
 <head>

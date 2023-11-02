@@ -7,7 +7,6 @@ from .models import Article
 def test_response(request):
     return HttpResponse("To jest przykładowy url")
 
-
 def all_articles(request):
     title_page = "To jest tytuł strony"
     options = [
